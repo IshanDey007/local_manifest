@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+     <remote name="idey"
+          fetch="https://github.com/IshanDeyA12" />
+
+     <remote name="drk" 
+          fetch="https://github.com/drkphnx" />
+
+     <remote name="los" 
+          fetch="https://github.com/LineageOS" />
+
+      <remote name="Emanuel"
+          fetch="https://github.com/EmanuelCN" />
+      
+       <remote name="pp"
+          fetch="https://github.com/PixelPlusUI-Devices" />
+
+
+
+    <!-- Trees -->
+
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="idey" revision="12.1" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="idey" revision="12.1" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="drk" revision="12.1" />
+  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="pp" revision="snowcone" />
+  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="pp" revision="snowcone" />
+
+  <remove-project name="android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
+  
+  <remove-project name="android_hardware_qcom_media"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
+
+  <remove-project name="android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
+ 
+  <remove-project name="android_hardware_xiaomi"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="nha" revision="snowcone-12.1" />
+	
+</manifest>
