@@ -25,7 +25,7 @@
   <project path="vendor/xiaomi" name="vendor_xiaomi_alioth" remote="drk" revision="12.1" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="pp" revision="snowcone" />
 
-  <remove-project name="android_hardware_qcom_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
   
   <remove-project name="android_hardware_qcom_media"/>
