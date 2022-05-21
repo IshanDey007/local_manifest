@@ -37,7 +37,11 @@
   <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>  
+  <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>
+	
+   <!-- Toolchain -->
+   
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kd" revision="master" clone-depth="1" />
  
 	
 </manifest>
