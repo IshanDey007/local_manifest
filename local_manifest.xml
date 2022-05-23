@@ -28,7 +28,6 @@
   <project path="vendor/xiaomi" name="vendor_xiaomi" remote="drk" revision="12.1" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" remote="idey" revision="staging3" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="idey" revision="snowcone" />
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kd" revision="master" />
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
