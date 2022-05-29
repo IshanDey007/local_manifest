@@ -32,6 +32,9 @@
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
+
+  <remove-project name="ArrowOS-Devices/android_hardware_xiaomi"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="idey" revision="snowcone-12.1"/>
   
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
