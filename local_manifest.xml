@@ -26,22 +26,13 @@
 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth_rebase" remote="idey" revision="awaken" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common-1" remote="idey" revision="awakent" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth_rebase" remote="idey" revision="cherish" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common-1" remote="idey" revision="awaken" />
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="bhuvi" revision="awaken" />
-  <project path="vendor/xiaomi" name="vendor_xiaomi_alioth-1" remote="idey" revision="awaken" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth-1" remote="idey" revision="awaken" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="idey" revision="snowcone-12.1" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth_1" remote="idey" revision="12.1-alioth" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="idey" revision="snowcone" />
-
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
-  
-  <remove-project name="LineageOS/android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
-
-  <remove-project name="LineageOS/android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>
 	
    <!-- Toolchain -->
    
