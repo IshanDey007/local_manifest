@@ -31,7 +31,7 @@
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common-1" remote="idey" revision="awaken" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth-1" remote="idey" revision="awaken" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth_1" remote="idey" revision="12.1-alioth" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="idey" revision="snowcone" />
+  <project path="external/ant-wireless/antradio-library" name="e
 	
    <!-- Toolchain -->
    
