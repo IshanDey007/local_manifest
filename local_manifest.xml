@@ -26,10 +26,10 @@
 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth_rebase" remote="idey" revision="cherish" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common-1" remote="idey" revision="awaken" />
-  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common-1" remote="idey" revision="awaken" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth-1" remote="idey" revision="awaken" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="idey" revision="cherish" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="idey" revision="awaken" />
+  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="idey" revision="awaken" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="idey" revision="awaken" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth_1" remote="idey" revision="12.1-alioth" />
 
 	
