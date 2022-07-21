@@ -32,6 +32,11 @@
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="idey" revision="awaken" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth_1" remote="idey" revision="12.1-alioth" />
 
+  <!-- Replacements -->
+
+  <remove-project name="android_frameworks_base"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="idey" revision="twelve-one"/>
+
 	
    <!-- Toolchain -->
    
