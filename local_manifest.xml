@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-     <remote name="idey"
+
+      <remote name="AbrarNoob"
+          fetch="https://github.com/AbrarNoob" />
+  
+     <remote name="alt"
           fetch="https://github.com/IshanDeyA12" />
 
-     <remote name="drk" 
+      <remote name="sp"
+          fetch="https://github.com/Spark-Devices" />
+
+      <remote name="pix"
+          fetch="https://github.com/ArrowOS" />
+
+     <remote name="caf"
+          fetch="https://github.com/VoidUI-CAF" />
+
+     <remote name="clang"
+          fetch="https://gitlab.com/Amritorock" />
+    
+      <remote name="gh"
+          fetch="https://github.com/Ghosuto" />
+   
+      <remote name="dark"
           fetch="https://github.com/drkphnx" />
-
-     <remote name="los" 
-          fetch="https://github.com/LineageOS" />
-
-      <remote name="Emanuel"
+ 
+      <remote name="em"
           fetch="https://github.com/EmanuelCN" />
-      
-       <remote name="pp"
-          fetch="https://github.com/PixelPlusUI-Devices" />
-
-       <remote name="bhuvi"
-          fetch="https://github.com/Reaper3110" />
-	
-       <remote name="kd"
-          fetch="https://github.com/kdrag0n" />
-
-
-
+  
+ 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="idey" revision="cherish" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="idey" revision="awaken" />
-  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="idey" revision="awaken" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="idey" revision="awaken" />
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth_1" remote="idey" revision="12.1-alioth" />
+  <project path="device/xiaomi/alioth" name="android_device_xiaomi_alioth" remote="idey" revision="pyro" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="gh" revision="awaken" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="sp" revision="pyro" />
+  <project path="vendor/xiaomi/sm8250-common" name="alioth_vendor_xiaomi_sm8250-common" remote="sp" revision="pyro" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
+
+
+  <remove-project name="android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dark" revision="aosp-13"/>
+ 
+  <remove-project name="android_hardware_qcom_media"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dark" revision="aosp-13"/>
+
+  <remove-project name="android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
 
    <!-- Toolchain -->
    
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kd" revision="master" clone-depth="1" />
- 
-	
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+
+   
 </manifest>
+
