@@ -5,7 +5,7 @@
           fetch="https://github.com/AbrarNoob" />
   
      <remote name="idey"
-          fetch="https://github.com/IshanDeyA12" />
+          fetch="https://github.com/IshanDey007" />
 
       <remote name="sp"
           fetch="https://github.com/Spark-Devices" />
@@ -32,7 +32,7 @@
     <!-- Trees -->
 
   <project path="device/xiaomi/alioth" name="android_device_xiaomi_alioth" remote="idey" revision="pyro" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="gh" revision="awaken" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="idey" revision="spark" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="sp" revision="pyro" />
   <project path="vendor/xiaomi/sm8250-common" name="alioth_vendor_xiaomi_sm8250-common" remote="sp" revision="pyro" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
