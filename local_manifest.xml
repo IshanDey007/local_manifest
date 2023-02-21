@@ -27,6 +27,9 @@
  
       <remote name="em"
           fetch="https://github.com/EmanuelCN" />
+
+      <remote name="glab" 
+          fetch="https://gitlab.com" />
   
  
     <!-- Trees -->
@@ -36,6 +39,7 @@
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="sp" revision="pyro" />
   <project path="vendor/xiaomi/sm8250-common" name="alioth_vendor_xiaomi_sm8250-common" remote="sp" revision="pyro" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
+  <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
 
 
   <remove-project name="android_hardware_qcom_audio"/>
