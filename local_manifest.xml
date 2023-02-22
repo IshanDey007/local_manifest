@@ -30,6 +30,10 @@
 
       <remote name="glab" 
           fetch="https://gitlab.com" />
+      
+      <remote name="spark-gitlab"
+           fetch="https://gitlab.com/spkal01"
+           revision="refs/heads/pyro" />
   
  
     <!-- Trees -->
@@ -50,6 +54,14 @@
 
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
+   
+  <remove-project name="external_faceunlock"/>
+  <project path="external/faceunlock" name="external_faceunlock" remote="spark-gitlab" />
+
+  <!-- External -->
+
+  <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
+
 
    <!-- Toolchain -->
    
